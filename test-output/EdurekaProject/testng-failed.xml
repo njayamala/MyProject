@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EdurekaProject]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.edureka.generic.ITest"/>
+  </listeners>
+  <test thread-count="5" name="Regression(failed)">
+    <classes>
+      <class name="com.edureka.testscripts.FlipcartShopping">
+        <methods>
+          <include name="closeApp"/>
+          <include name="Tc01"/>
+          <include name="OpenApp"/>
+        </methods>
+      </class> <!-- com.edureka.testscripts.FlipcartShopping -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [EdurekaProject] -->
